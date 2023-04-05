@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+}
+.container {
+    width: 100%;
+    padding: 0;
+}
+
+.signup-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+:root{
+    --border-color:#979797;
+}
+
+/******* FORM-SECTION ***********/
+.form-container {
+    width: 40%;
+    border-right: 2px solid var(--border-color);
+    box-shadow: 10px 6px 10px #F3F3F3;
+}
+
+.japs {
+    margin: 20px 0 0 50px;
+    width: 100px;
+}
+
+.signup-form {
+    margin: 10px 100px 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup-form input {
+    font-size: 18px;
+    margin-top: 10px;
+    padding: 30px;
+    border: 0;
+    border-bottom: 2px solid var(--border-color);
+}
+
+.signup-form #nom {
+    background: url('../assets/user.png') left;
+    background-repeat: no-repeat;
+    background-size: 35px;
+    text-indent: 20px;
+}
+
+.signup-form #email {
+    background: url('../assets/user_mail.png') left;
+    background-repeat: no-repeat;
+    background-size: 35px;
+    text-indent: 20px;
+}
+
+.signup-form #mdp {
+    background: url('../assets/user_pwd.png') left;
+    background-repeat: no-repeat;
+    background-size: 30px 40px;
+    text-indent: 20px;
+}
+
+.signup-form #signup-submit {
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    margin-top: 50px;
+    width: 330px;
+    height: 60px;
+    border: 0px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+/******* ILLUSTRATION-SECTION**********/
+.illustration-container {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.illustration {
+    width: 500px;
+    margin-bottom: 80px;
+}

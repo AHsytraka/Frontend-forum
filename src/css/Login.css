@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+}
+.container {
+    width: 100%;
+    padding: 0;
+}
+
+.login-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+:root{
+    --border-color:#979797;
+}
+
+/******* FORM-SECTION ***********/
+
+.login-form-container {
+    width: 40%;
+    border-right: 2px solid var(--border-color);
+    box-shadow: 10px 6px 10px #F3F3F3;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.japs {
+    margin: 20px 0 0 50px;
+    width: 100px;
+}
+
+.login-form {
+    margin: 40px 100px 0px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-form input {
+    font-size: 18px;
+    margin-top: 10px;
+    padding: 30px;
+    border: 0;
+    border-bottom: 2px solid var(--border-color);
+}
+
+.login-form #nom {
+    background: url('../assets/user.png') left;
+    background-repeat: no-repeat;
+    background-size: 35px;
+    text-indent: 20px;
+}
+
+.login-form #email {
+    background: url('../assets/user_mail.png') left;
+    background-repeat: no-repeat;
+    background-size: 35px;
+    text-indent: 20px;
+}
+
+.login-form #mdp {
+    background: url('../assets/user_pwd.png') left;
+    background-repeat: no-repeat;
+    background-size: 30px 40px;
+    text-indent: 20px;
+}
+
+.login-form #signup-submit {
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    margin-top: 50px;
+    width: 330px;
+    height: 60px;
+    border: 0px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.to-mdp {
+    margin: 30px auto;
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+/******* ILLUSTRATION-SECTION**********/
+
+.illustration-container {
+    color: black;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.to-signup {
+    align-self: flex-end;
+    margin: 0 150px 30px 0;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.to-signup p {
+    margin-right: 10px;
+}
+
+.to-signup img {
+    width: 30px;
+}
+
+.illustration {
+    width: 500px;
+    margin-bottom: 80px;
+}
